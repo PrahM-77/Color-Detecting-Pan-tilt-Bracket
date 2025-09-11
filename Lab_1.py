@@ -1,10 +1,4 @@
 
-#____________________________
-# Name: Prahlad Menon
-# Email: pkm5568@psu.edu
-# Class: CMPSC 131 Section 001
-# Lab #1
-#____________________________
 
 import random
 
@@ -21,5 +15,6 @@ age = 2025-Birth_year_actual
 animals = ['Tiger', 'Lion', 'Giraffe', 'Zebra', 'Elephant'] 
 
 print("Thank you very much", First_name, Last_name)
+
 
 print("Your temporary password is", Last_name, "*", age, "*", random.choice(animals))
