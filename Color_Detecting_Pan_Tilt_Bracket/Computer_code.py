@@ -130,7 +130,7 @@ def main(camera_source, serialdev):
         # Either give a new coordinate that is within 10 degrees of current value or returns current angle if object is already in the center
 
         serialdev.write(f"{pan_cmd}, {tilt_cmd}\n".encode())
-        # Sends both commands simultaneously to make recieving end simpler, with little decoding
+        # Sends both commands simultaneously to make recieving end simpler, with little decoding, comma split mostly just to be fancy
 
         pan_pos = pan_cmd
         tilt_pos = tilt_cmd
